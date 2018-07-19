@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { SameModuleComponent } from './same-module.component';
 import { DiffModule } from '../diff-module/diff-module.module';
 import { SharedLibModule } from 'shared-lib';
+import { ExtLibModule } from 'ext-lib';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SharedLibModule } from 'shared-lib';
   imports: [
     BrowserModule,
     DiffModule,
-    SharedLibModule
+    SharedLibModule,
+    ExtLibModule
   ],
   providers: [],
   bootstrap: [AppComponent]

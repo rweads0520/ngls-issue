@@ -18,10 +18,7 @@
     ],
     "paths": {
       "ext-lib": [
-        "dist/ext-lib"
-      ],
-      "ext-lib/*": [
-        "dist/ext-lib/*"
+        "projects/ext-lib/src/public_api"
       ]
     }
   }

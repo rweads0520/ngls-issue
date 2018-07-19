@@ -19,6 +19,9 @@
     "paths": {
       "shared-lib": [
         "projects/shared-lib/src/public_api"
+      ],
+      "ext-lib": [
+        "../ngls-issue-lib/projects/ext-lib/src/public_api"
       ]
     }
   }
